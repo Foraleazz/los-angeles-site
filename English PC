@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>American City Profile - Los Angeles</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f4f6f9;
+    color: #222;
+}
+
+header {
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+    url('https://upload.wikimedia.org/wikipedia/commons/8/85/Los_Angeles_Skyline.jpg');
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+nav {
+    background: #1e3a8a;
+    text-align: center;
+    padding: 15px;
+    position: sticky;
+    top: 0;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+section {
+    max-width: 1000px;
+    margin: 20px auto;
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+h2 {
+    color: #1e3a8a;
+}
+
+img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.chart {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    height: 200px;
+    margin-top: 20px;
+}
+
+.bar {
+    width: 60px;
+    background: #2563eb;
+    text-align: center;
+    color: white;
+}
+
+.bar1 { height: 80px; }
+.bar2 { height: 120px; }
+.bar3 { height: 160px; }
+
+footer {
+    text-align: center;
+    background: #1e3a8a;
+    color: white;
+    padding: 20px;
+    margin-top: 30px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>Los Angeles</h1>
+<p>American City Profile Project</p>
+</header>
+
+<nav>
+<a href="#about">About</a>
+<a href="#history">History</a>
+<a href="#attractions">Attractions</a>
+<a href="#economy">Economy</a>
+<a href="#lifestyle">Lifestyle</a>
+<a href="#facts">Facts</a>
+<a href="#problem">Problem</a>
+</nav>
+
+<section id="about">
+<h2>What city is this?</h2>
+<p>Los Angeles is a large city in California, USA. It is located on the west coast and is one of the most famous cities in the world.</p>
+</section>
+
+<section id="history">
+<h2>History</h2>
+<p>Los Angeles was founded in 1781 by Spanish settlers. Over time, it became a major global city, especially known for the film industry.</p>
+</section>
+
+<section id="attractions">
+<h2>Famous Places</h2>
+<ul>
+<li>Hollywood</li>
+<li>Santa Monica Pier</li>
+<li>Griffith Observatory</li>
+<li>Venice Beach</li>
+</ul>
+<img src="https://upload.wikimedia.org/wikipedia/commons/7/7a/Hollywood_Sign_%28Zuschnitt%29.jpg">
+</section>
+
+<section id="economy">
+<h2>Economy</h2>
+<p>Los Angeles has a strong economy based on entertainment (Hollywood), technology, trade, tourism, and the port industry.</p>
+</section>
+
+<section id="lifestyle">
+<h2>Lifestyle & Culture</h2>
+<p>The city is very diverse. People from many cultures live in Los Angeles. It is known for movies, music, fashion, and a relaxed lifestyle.</p>
+</section>
+
+<section id="facts">
+<h2>Interesting Facts</h2>
+<ul>
+<li>Over 3.8 million people live in the city</li>
+<li>It is the second largest city in the USA</li>
+<li>It has more than 300 sunny days per year</li>
+</ul>
+</section>
+
+<section id="problem">
+<h2>Problem: Homelessness</h2>
+<p>Los Angeles has a serious homelessness problem. Many people live on the streets due to high rent and social inequality.</p>
+
+<h3>Example Data (estimated)</h3>
+<div class="chart">
+<div class="bar bar1">2020<br>66k</div>
+<div class="bar bar2">2022<br>69k</div>
+<div class="bar bar3">2024<br>75k</div>
+</div>
+
+<p>This diagram shows that homelessness is increasing every year in Los Angeles.</p>
+</section>
+
+<footer>
+<p>Created for School Project – American City Profile</p>
+</footer>
+
+</body>
+</html>
